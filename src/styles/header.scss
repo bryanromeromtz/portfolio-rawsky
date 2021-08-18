@@ -1,0 +1,83 @@
+.header-wrapper {
+  position: relative;
+  //background: url(select-background-img) no-repeat;
+  //background-size:cover;
+  //background-position:center;
+  height: 90vh;
+  background-color: #252934;
+}
+
+.main-info {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  & h2 {
+    @media (max-width: 400px) {
+      display: flex;
+      flex-direction: column;
+    }
+    @media (max-width: 768px) {
+      font-size: 1.5rem !important;
+    }
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--primary-white);
+    .color-bryan {
+      color: red;
+    }
+  }
+  z-index: 1;
+}
+
+// Typed effect
+
+.typed-text {
+  color: var(--primary-white);
+  font-size: 2rem;
+  @media (max-width: 768px) {
+    font-size: 1.3rem !important;
+  }
+}
+
+.cursor-typed {
+  font-size: 1.2em;
+}
+
+// header main offer buttom
+
+.btn-main-offer {
+  text-decoration: none;
+  border: 1px solid #d470ce;
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-white);
+  margin-top: 2rem;
+  @media (max-width: 700px) {
+    padding: 0.6rem 0.7rem 0.7rem 0.7rem;
+    font-size: 0.9rem;
+  }
+  @media (max-width: 400px) {
+    font-size: 0.8rem;
+  }
+}
+.btn-main-offer:hover {
+  background: #df5ad6;
+  transition: 0.2s ease-in-out;
+  color: var(--primary-white);
+}
+
+// particles js
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}

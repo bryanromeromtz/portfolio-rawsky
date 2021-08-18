@@ -1,27 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-body {
-  font-family: 'Open Sans', sans-serif;
-}
-
-
-:root {
-  --primary-white: #fff;
-  --primary-orange: #f9ab00;
-  --primary-dark: rgba(255,255,255, 0);
-  --primary-red: #ef4035;
-  --primary-hover-red: #f33501;
-}
-
-.logo {
-  width: 11.25rem;
-  margin-top: 1.80rem;
-}
-
 /*----- MENU LINKS --------*/
+nav {
+  z-index: 2;
+}
+
+.bg-dark {
+  background-color: #252934 !important;
+}
+
 nav a.nav-link {
-  font-size: .8rem;
-  letter-spacing: 0.0375rem;
+  font-size: 1.2rem;
+  //letter-spacing: 0.0375rem;
   cursor: pointer;
+  @media (max-width: 768px) {
+    font-size: 0.8rem;
+  }
 }
 
 nav ul li {
@@ -43,13 +35,16 @@ nav ul li {
   max-width: 17.25rem;
   padding: 0 !important;
   height: 6rem !important;
+  @media (max-width: 750px) {
+    height: 4rem !important;
+  }
 }
 
-.navbar-nav > li > a.active,  .navbar-nav > li > a:focus {
+.navbar-nav > li > a.active,
+.navbar-nav > li > a:focus {
   border-top: 0.1875rem solid var(--primary-orange);
 }
 
 .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid var(--primary-orange);
-
 }
