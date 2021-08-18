@@ -16,16 +16,16 @@ body * {
     margin-top: 1.5rem !important;
   }
   width: 11.25rem;
-  margin-top: 1.8rem;
+  margin-top: 1.5rem;
 }
 
 :root {
   --primary-white: #fff;
-  --primary-orange: #f9ab00;
+  --primary-pink: #e31b6d;
   --primary-dark: rgba(255, 255, 255, 0);
-  --primary-red: #ef4035;
-  --primary-hover-red: #f33501;
+  --primary-blue: #04c2c9;
 }
 
 @import "navbar.scss";
 @import "header.scss";
+@import "about-me.scss";

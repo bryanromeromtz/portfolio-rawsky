@@ -9,7 +9,7 @@ const Header = () => {
         <h2>i'm a full-stack web developer</h2>
         <ReactTypingEffect
           className="typed-text"
-          text={["Web Design", "Web Development", "Movil Responsive", "MERN STACK"]}
+          text={["Web Design", "Web Development", "Responsive Web Design", "UI/UX"]}
           speed={200}
           eraseSpeed={200}
           eraseDelay={1000}

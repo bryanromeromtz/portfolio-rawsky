@@ -3,12 +3,12 @@ nav {
   z-index: 2;
 }
 
-.bg-dark {
-  background-color: #252934 !important;
+.navbar {
+  background-color: #1b242f;
 }
 
 nav a.nav-link {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   //letter-spacing: 0.0375rem;
   cursor: pointer;
   @media (max-width: 768px) {
@@ -34,7 +34,7 @@ nav ul li {
 .navbar-brand {
   max-width: 17.25rem;
   padding: 0 !important;
-  height: 6rem !important;
+  height: 5rem !important;
   @media (max-width: 750px) {
     height: 4rem !important;
   }
@@ -42,9 +42,9 @@ nav ul li {
 
 .navbar-nav > li > a.active,
 .navbar-nav > li > a:focus {
-  border-top: 0.1875rem solid var(--primary-orange);
+  border-top: 0.1875rem solid var(--primary-pink);
 }
 
 .navbar-nav > li > a:hover {
-  border-top: 0.1875rem solid var(--primary-orange);
+  border-top: 0.1875rem solid var(--primary-pink);
 }

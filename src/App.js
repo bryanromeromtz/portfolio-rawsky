@@ -4,6 +4,7 @@ import Particles from 'react-particles-js';
 
 import Navbar from './components/Navbar';
 import Header from './components/Header';
+import AboutMe from './components/AboutMe';
 import ParticlesConfig from './components/ParticlesConfig';
 
 function App() {
@@ -13,6 +14,8 @@ function App() {
         params={ParticlesConfig} />
       <Navbar />
       <Header />
+      <div className="border-line"></div>
+      <AboutMe />
     </div>
   );
 }
