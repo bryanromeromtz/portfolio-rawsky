@@ -24,9 +24,12 @@ body * {
   --primary-pink: #e31b6d;
   --primary-dark: rgba(255, 255, 255, 0);
   --primary-blue: #04c2c9;
+  --primary-grey: #616161;
+  --primary-light-grey: #b8b8b8;
 }
 
 @import "navbar.scss";
 @import "header.scss";
 @import "about-me.scss";
 @import "services.scss";
+@import "experience.scss";

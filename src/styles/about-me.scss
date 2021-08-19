@@ -10,11 +10,13 @@
   }
 }
 
-.about-header__wrapper {
+.header__wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
-  .about-header__header {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  .header__header {
     //animation: slideInLeft 0.75s ease both;
     color: #444649;
     font-weight: bold;
@@ -43,7 +45,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  color: #616161;
+  color: var(--primary-grey);
   margin-top: -45px;
   .label-bold {
     font-size: 18pt;

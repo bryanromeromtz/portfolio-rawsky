@@ -4,11 +4,10 @@ import author from '../static/assets/me.png'
 const AboutMe = () => {
   return (
     <div className="container py-5">
-      <div className="about-header__wrapper">
-        <h1 className="about-header__header">
+      <div className="header__wrapper">
+        <h1 className="header__header">
           About
         </h1>
-
       </div>
 
       <div className="row">
