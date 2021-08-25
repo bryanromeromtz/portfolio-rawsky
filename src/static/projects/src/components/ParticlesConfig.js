@@ -77,7 +77,7 @@ const ParticlesConfig = {
       },
       onclick: {
         enable: true,
-        mode: "repulse"
+        mode: "push"
       },
       resize: true
     },

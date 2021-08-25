@@ -24,23 +24,42 @@
       flex-direction: column;
     }
     @media (max-width: 768px) {
-      font-size: 1.5rem !important;
+      font-size: 3rem !important;
     }
-    font-size: 2.6rem;
+
+    font-size: 4rem;
     color: var(--primary-white);
+    font-weight: 600;
     .color-bryan {
       color: var(--primary-pink);
-      font-size: 3rem;
-      font-weight: 900;
+      font-size: 5rem;
+      font-weight: 800;
       @media (max-width: 768px) {
         font-weight: 600;
-        font-size: 1.8rem !important;
+        font-size: 4rem !important;
+      }
+    }
+    .color-exclamation {
+      color: var(--primary-blue);
+      font-size: 5rem;
+      font-weight: 800;
+      @media (max-width: 768px) {
+        font-weight: 600;
+        font-size: 4rem !important;
       }
     }
   }
   z-index: 1;
 }
 
+// toggle hamburguer
+
+.navbar-light .navbar-toggler {
+  color: var(--primary-blue) !important;
+}
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0.17rem !important;
+}
 // Typed effect
 
 .typed-text {
@@ -58,34 +77,74 @@
 
 // header main offer buttom
 
-.btn-main-offer {
-  text-decoration: none;
-  border: 2px solid;
-  border-color: var(--primary-blue);
-  font-size: 1.1rem;
-  text-transform: uppercase;
-  border-radius: 0;
-  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
-  color: var(--primary-white);
-  margin-top: 2rem;
-  transition: 0.3s ease-in-out;
-  @media (max-width: 700px) {
-    padding: 0.6rem 0.7rem 0.7rem 0.7rem;
-    font-size: 0.9rem;
-  }
-  @media (max-width: 400px) {
-    font-size: 0.8rem;
-  }
-}
-.btn-main-offer:hover {
-  transition: 0.3s ease-in-out;
-  color: var(--primary-white);
-  background-color: var(--primary-blue);
-  border-color: var(--primary-blue);
-}
+// .btn-main-offer {
+//   text-decoration: none;
+//   border: 2px solid;
+//   border-color: var(--primary-blue);
+//   font-size: 1.1rem;
+//   text-transform: uppercase;
+//   border-radius: 0;
+//   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+//   color: var(--primary-white);
+//   margin-top: 2rem;
+//   transition: 0.3s ease-in-out;
+//   @media (max-width: 700px) {
+//     padding: 0.6rem 0.7rem 0.7rem 0.7rem;
+//     font-size: 0.9rem;
+//   }
+//   @media (max-width: 400px) {
+//     font-size: 0.8rem;
+//   }
+// }
+// .btn-main-offer:hover {
+//   transition: 0.3s ease-in-out;
+//   color: var(--primary-white);
+//   background-color: var(--primary-blue);
+//   border-color: var(--primary-blue);
+// }
 
-.arrow {
-  font-size: 20px;
+.btn-main-offer {
+  line-height: 50px;
+  width: 200px;
+  max-width: 220px;
+  text-decoration: none;
+  height: 55px;
+  position: relative;
+  transform: translateY(-50%);
+  margin-top: 3rem;
+  font-size: 16px;
+  background-color: none;
+  border: 2px solid var(--primary-blue);
+  color: var(--primary-blue);
+  letter-spacing: 2px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.5s;
+  display: inline-block;
+  @media (max-width: 500px) {
+    width: 150px;
+    font-size: 13px;
+    height: 50px;
+  }
+
+  &:hover {
+    color: whitesmoke;
+  }
+  &::before {
+    content: "";
+    background-color: var(--primary-blue);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0%;
+    z-index: -1;
+    transition: 0.4s;
+    max-width: 220px;
+  }
+  &:hover::before {
+    height: 100%;
+  }
 }
 
 // particles js

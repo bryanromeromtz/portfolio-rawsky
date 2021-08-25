@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
-import Logo from '../static/assets/logo-b.png';
+import Logo from '../static/assets/BRYAN WEB DEVELOPMENT.jpg';
 
 
 const Navbar = () => {

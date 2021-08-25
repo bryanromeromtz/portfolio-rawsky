@@ -207,7 +207,7 @@ const Portfolio = () => {
 
   return (
     <div id="portfolio" className="portfolio-wrapper">
-      <div className="container portfolio-margin-bottom">
+      <div className="container">
         <div className="header__wrapper">
           <h1 className="header__header portfolio-header">
             Projects
