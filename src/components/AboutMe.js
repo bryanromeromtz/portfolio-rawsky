@@ -3,7 +3,7 @@ import React from 'react';
 import author from '../static/assets/me.png'
 const AboutMe = () => {
   return (
-    <div className="container py-5 space-about-me">
+    <div id="about" className="container py-5 space-about-me">
       <div className="header__wrapper">
         <h1 className="header__header">
           About

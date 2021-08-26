@@ -1,4 +1,4 @@
-import React, { useState, setState } from 'react';
+import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import { useForm } from "react-hook-form";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -31,7 +31,7 @@ const ContactMe = () => {
 
     setTimeout(function () {
       setSuccessMessage(false)
-    }, 6000);
+    }, 7000);
 
     r.target.reset();
   }
@@ -44,7 +44,7 @@ const ContactMe = () => {
   }
 
   return (
-    <div className="contact-me">
+    <div id="contact" className="contact-me">
       <svg
         preserveAspectRatio="none"
         viewBox="0 0 100 102"
@@ -72,12 +72,12 @@ const ContactMe = () => {
           successMessage ?
             (
               <span className="alert-success position-alert bounce-in-right" role="alert">
-                <FontAwesomeIcon className="success-icon" icon={faCheckCircle} />
-                {successMessage}
+                <FontAwesomeIcon className="success-icon" icon={faCheckCircle} />&nbsp;&nbsp;{successMessage}
               </span>
             )
-            : <div></div>
+            : null
         }
+
 
       </div>
       <div className="container">

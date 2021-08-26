@@ -27,18 +27,18 @@ const Portfolio = () => {
           Soluta atque corporis esse sit est officiis sint culpa tempora magnam ipsam?
         </p>
         <b>View Site: </b>
-        <a
+        <button
           className="hyper-link"
           onClick={() => window.open("https://replicate-daily-smarty-ketsup.herokuapp.com")} >
           Daily Smarty UI
-        </a>
+        </button>
         <br />
         <b>GitHub: </b>
-        <a
+        <button
           className="hyper-link"
           onClick={() => window.open("https://github.com/bryanromeromtz/DailySmartyUI")} >
           My GitHub Repository
-        </a>
+        </button>
       </div>
     )
     PopupboxManager.open({ content });
@@ -67,11 +67,11 @@ const Portfolio = () => {
           Soluta atque corporis esse sit est officiis sint culpa tempora magnam ipsam?
         </p>
         <b>GitHub: </b>
-        <a
+        <button
           className="hyper-link"
           onClick={() => window.open("https://github.com/bryanromeromtz/bryan-martinez-react-portfolio")} >
           My GitHub Repository
-        </a>
+        </button>
       </div>
     )
     PopupboxManager.open({ content });
@@ -101,18 +101,18 @@ const Portfolio = () => {
           Soluta atque corporis esse sit est officiis sint culpa tempora magnam ipsam?
         </p>
         <b>View Site: </b>
-        <a
+        <button
           className="hyper-link"
           onClick={() => window.open("https://weather-app-by-crypto.herokuapp.com")} >
           weather App From Anywhere In The World
-        </a>
+        </button>
         <br />
         <b>GitHub: </b>
-        <a
+        <button
           className="hyper-link"
           onClick={() => window.open("https://github.com/bryanromeromtz/wheather-app")} >
           My GitHub Repository
-        </a>
+        </button>
       </div>
     )
     PopupboxManager.open({ content });
@@ -142,11 +142,11 @@ const Portfolio = () => {
           Soluta atque corporis esse sit est officiis sint culpa tempora magnam ipsam?
         </p>
         <b>GitHub: </b>
-        <a
+        <button
           className="hyper-link"
           onClick={() => window.open("https://github.com/bryanromeromtz/game-snake-web")} >
           My GitHub Repository
-        </a>
+        </button>
       </div>
     )
     PopupboxManager.open({ content });
@@ -175,18 +175,18 @@ const Portfolio = () => {
           Soluta atque corporis esse sit est officiis sint culpa tempora magnam ipsam?
         </p>
         <b>view Site: </b>
-        <a
+        <button
           className="hyper-link"
           onClick={() => window.open("https://mario-bugs-zorakcis.herokuapp.com")} >
           Mario Bros Demo
-        </a>
+        </button>
         <br />
         <b>GitHub: </b>
-        <a
+        <button
           className="hyper-link"
           onClick={() => window.open("https://github.com/bryanromeromtz/mario-kaboom")} >
           My GitHub Repository
-        </a>
+        </button>
       </div>
     )
     PopupboxManager.open({ content });

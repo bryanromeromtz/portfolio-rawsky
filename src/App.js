@@ -9,6 +9,7 @@ import Services from './components/Services';
 import Experience from './components/Experience';
 import Portfolio from './components/Portfolio';
 import ContactMe from './components/ContactMe';
+import Footer from './components/Footer';
 import ParticlesConfig from './components/ParticlesConfig';
 
 function App() {
@@ -16,14 +17,15 @@ function App() {
     <div className="App">
       <Particles
         params={ParticlesConfig} />
-      <Navbar />
       <Header />
+      <Navbar />
       <div className="border-line"></div>
       <AboutMe />
       <Services />
       <Experience />
       <Portfolio />
       <ContactMe />
+      <Footer />
     </div>
   );
 }

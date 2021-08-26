@@ -39,6 +39,9 @@ p {
   --primary-background: #f5f5f5;
   --primary-background-black: #1e242c;
   --primary-text-form: #8d8d8d;
+  --background-header-footer: #252934;
+  --primary-background-nav: #1b242f;
+  --primary-footnote: #8f9aa7;
 }
 
 @import "navbar.scss";
@@ -48,3 +51,4 @@ p {
 @import "experience.scss";
 @import "portfolio.scss";
 @import "contact-me.scss";
+@import "footer.scss";

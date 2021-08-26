@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
+import { Link } from 'react-scroll';
 
 const Header = () => {
   return (
-    <div className="header-wrapper">
+    <div id="home" className="header-wrapper">
       <div className="main-info">
-        <h2>Hello, I'm<span className="color-bryan"> Bryan</span><span className="color-exclamation">!!</span></h2>
-        <h2>web developer</h2>
+        <h2 className="header-title">Hello, I'm<span className="color-bryan"> Bryan Monokai</span><span className="color-exclamation">.</span></h2>
+        <h2 className="header-title">Im a full-stack web developer</h2>
 
         <ReactTypingEffect
           className="typed-text"
@@ -17,7 +18,7 @@ const Header = () => {
           typingDelay={1200}
           cursorClassName="cursor-typed"
         />
-        <a href="#" className="btn-main-offer">Contact Me</a>
+        <Link smooth={true} to="contact" className="btn-main-offer">Contact Me</Link>
       </div>
     </div>
   )

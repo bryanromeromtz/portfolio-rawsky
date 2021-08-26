@@ -3,8 +3,8 @@
   //background: url(select-background-img) no-repeat;
   //background-size:cover;
   //background-position:center;
-  height: 90vh;
-  background-color: #252934;
+  height: 100vh;
+  background-color: var(--background-header-footer);
 }
 
 .main-info {
@@ -18,34 +18,50 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  & h2 {
-    @media (max-width: 400px) {
-      display: flex;
-      flex-direction: column;
-    }
-    @media (max-width: 768px) {
-      font-size: 3rem !important;
-    }
 
-    font-size: 4rem;
+  .header-title {
+    // @media (max-width: 400px) {
+    //   display: flex;
+    //   flex-direction: column;
+    // }
+    @media (max-width: 768px) {
+      font-size: 2.6752rem;
+    }
+    @media (max-width: 600px) {
+      font-size: 2rem !important;
+    }
+    @media (max-width: 400px) {
+      font-size: 1.3376rem !important;
+    }
+    line-height: 0.9 !important;
+    font-size: 3rem;
     color: var(--primary-white);
-    font-weight: 600;
     .color-bryan {
       color: var(--primary-pink);
-      font-size: 5rem;
-      font-weight: 800;
+      font-size: 3.3rem;
+      font-weight: bold;
       @media (max-width: 768px) {
         font-weight: 600;
-        font-size: 4rem !important;
+        font-size: 2.8888rem !important;
+      }
+      @media (max-width: 600px) {
+        font-size: 2.2222rem !important;
+      }
+      @media (max-width: 400px) {
+        font-size: 1.5555rem !important;
       }
     }
     .color-exclamation {
       color: var(--primary-blue);
-      font-size: 5rem;
-      font-weight: 800;
+      font-size: 3.3rem;
+      font-weight: bold;
       @media (max-width: 768px) {
         font-weight: 600;
-        font-size: 4rem !important;
+        font-size: 2.6752rem !important;
+      }
+      @media (max-width: 768px) {
+        font-weight: 600;
+        font-size: 2rem !important;
       }
     }
   }
@@ -66,7 +82,13 @@
   color: var(--primary-white);
   font-size: 2rem;
   @media (max-width: 768px) {
-    font-size: 1.3rem !important;
+    font-size: 1.8rem !important;
+  }
+  @media (max-width: 600px) {
+    font-size: 1.5rem !important;
+  }
+  @media (max-width: 400px) {
+    font-size: 0.9rem !important;
   }
 }
 

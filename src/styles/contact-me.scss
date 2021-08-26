@@ -1,6 +1,8 @@
 .contact-me {
-  background: #252934;
+  background: var(--background-header-footer);
   color: #fff;
+  position: relative;
+
   .svgcolor-light svg {
     left: 0;
     position: absolute;
@@ -62,6 +64,7 @@
   .align-btn {
     display: flex;
     justify-content: end;
+    margin-bottom: 3.5rem;
     .contact-btn {
       line-height: none !important;
       background-color: transparent;
@@ -108,26 +111,54 @@ textarea.form-control {
 .position-alert {
   opacity: 80% !important;
   position: absolute !important;
-  width: auto !important;
-  right: 10px;
+  width: 250px !important;
+  position: absolute;
+  right: 0;
   background-color: mediumspringgreen !important;
   padding: 20px 40px !important;
-  border-left: 40px solid rgb(0, 131, 81) !important;
+  border-left: 50px solid rgb(0, 131, 81) !important;
   border-radius: 4px;
-  height: 65px;
+  height: 150px;
   font-size: 16px;
   font-weight: bold;
   text-align: center;
-  margin-top: -150px;
   display: flex;
   align-items: center;
   color: var(--primary-white) !important;
+  top: 180px;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+
+  @media (max-width: 740px) {
+    height: 120px;
+    font-size: 14px;
+    border-left: 43px solid rgb(0, 131, 81) !important;
+  }
+  @media (max-width: 550px) {
+    width: 200px !important;
+    font-size: 13px;
+    border-left: 40px solid rgb(0, 131, 81) !important;
+    height: 110px;
+  }
+  @media (max-width: 400px) {
+    width: 170px !important;
+    font-size: 11.5px;
+    border-left: 30px solid rgb(0, 131, 81) !important;
+    height: 100px;
+  }
 }
 
 .success-icon {
   color: var(--primary-white) !important;
   margin-left: -20px;
   font-size: 25px;
+  @media (max-width: 400px) {
+    font-size: 15px;
+  }
+  @media (max-width: 600px) {
+    font-size: 20px;
+  }
 }
 
 .bounce-in-right {
