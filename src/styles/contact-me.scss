@@ -63,7 +63,7 @@
 
   .align-btn {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     margin-bottom: 3.5rem;
     .contact-btn {
       line-height: none !important;
@@ -108,44 +108,48 @@ textarea.form-control {
   }
 }
 
-.position-alert {
-  opacity: 80% !important;
-  position: absolute !important;
-  width: 250px !important;
-  position: absolute;
-  right: 0;
-  background-color: mediumspringgreen !important;
-  padding: 20px 40px !important;
-  border-left: 50px solid rgb(0, 131, 81) !important;
-  border-radius: 4px;
-  height: 150px;
-  font-size: 16px;
-  font-weight: bold;
-  text-align: center;
+.alert-wrapper {
   display: flex;
   align-items: center;
-  color: var(--primary-white) !important;
-  top: 180px;
-  overflow: hidden;
-  opacity: 0;
-  pointer-events: none;
+  justify-content: flex-end;
+  bottom: 20% !important;
 
-  @media (max-width: 740px) {
-    height: 120px;
-    font-size: 14px;
-    border-left: 43px solid rgb(0, 131, 81) !important;
+  @media (max-width: 500px) {
+    bottom: 40% !important;
   }
-  @media (max-width: 550px) {
-    width: 200px !important;
-    font-size: 13px;
-    border-left: 40px solid rgb(0, 131, 81) !important;
-    height: 110px;
-  }
-  @media (max-width: 400px) {
-    width: 170px !important;
-    font-size: 11.5px;
-    border-left: 30px solid rgb(0, 131, 81) !important;
-    height: 100px;
+
+  .alert-send-message {
+    opacity: 80%;
+    width: 250px;
+    background-color: mediumspringgreen;
+    padding: 20px 40px;
+    border-left: 50px solid rgb(0, 131, 81);
+    border-radius: 4px;
+    height: 150px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: var(--primary-white);
+
+    @media (max-width: 740px) {
+      height: 120px;
+      font-size: 14px;
+      border-left: 43px solid rgb(0, 131, 81) !important;
+    }
+    @media (max-width: 550px) {
+      width: 200px !important;
+      font-size: 13px;
+      border-left: 40px solid rgb(0, 131, 81) !important;
+      height: 110px;
+    }
+    @media (max-width: 400px) {
+      width: 170px !important;
+      font-size: 11.5px;
+      border-left: 30px solid rgb(0, 131, 81) !important;
+      height: 100px;
+    }
   }
 }
 

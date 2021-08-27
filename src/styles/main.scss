@@ -7,16 +7,24 @@ body * {
 }
 
 .logo {
+  width: 4rem;
+  margin-top: 0.2rem !important;
+  @media (max-width: 1250px) {
+    margin-left: 10px;
+  }
+  @media (max-width: 991px) {
+    width: 3rem;
+    margin-top: 0.7rem !important;
+  }
   @media (max-width: 750px) {
-    width: 2rem;
+    width: 2.5rem;
     margin-top: 0.4rem !important;
+    margin-left: -2px;
   }
   @media (max-width: 400px) {
-    width: 1.8rem;
-    margin-top: 0.5rem !important;
+    width: 2rem;
+    margin-top: 0.8rem !important;
   }
-  width: 4rem;
-  //margin-top: 1.5rem;
 }
 
 p {
@@ -25,7 +33,7 @@ p {
   line-height: 22pt;
   text-align: justify;
   @media (max-width: 600px) {
-    font-size: 8pt;
+    font-size: 10pt;
   }
 }
 

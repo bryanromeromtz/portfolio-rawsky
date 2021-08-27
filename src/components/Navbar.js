@@ -10,7 +10,7 @@ import Logo from '../static/assets/logo-b.png';
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light ">
-      <div className="container">
+      <div className="container navbar-wrapper">
 
         <a className="navbar-brand" href="#top"><img className="logo" src={Logo} alt="logo..."></img></a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

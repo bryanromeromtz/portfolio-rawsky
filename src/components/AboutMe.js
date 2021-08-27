@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 
 import author from '../static/assets/me.png'
 const AboutMe = () => {
@@ -19,9 +20,14 @@ const AboutMe = () => {
         <div className="text-wrapper col-lg-6 col-xm-12">
           <div className="about-text">
             <div className="label-bold">Who's this guy?</div>
-            <div className="description-me">I am a full-stack developer living in Guadalajara Jal, MX.
-              I have a great passion for UI effects, animations, and authoring. intuitive and dynamic user experiences. and I'm also passionate about mastering the full stack of apps
-              Let's do something special.</div>
+            <div className="description-me">
+              I am a full-stack developer living in Guadalajara Jal, MX.
+              I have a great passion for UI effects, animations, and authoring.
+              intuitive and dynamic user experiences.
+              and I'm also passionate about mastering the full stack of apps
+              <Link smooth={true} to="contact" className="about-link-to-contact">
+                Let's make something special.
+              </Link></div>
           </div>
         </div>
       </div>

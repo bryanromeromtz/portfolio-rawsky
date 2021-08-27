@@ -3,6 +3,10 @@ nav {
   z-index: 2;
 }
 
+.navbar-wrapper {
+  max-width: 1250px !important;
+}
+
 .navbar {
   background-color: var(--primary-background-nav);
 }

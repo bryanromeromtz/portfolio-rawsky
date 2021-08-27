@@ -71,13 +71,14 @@ const ContactMe = () => {
         {
           successMessage ?
             (
-              <span className="alert-success position-alert bounce-in-right" role="alert">
-                <FontAwesomeIcon className="success-icon" icon={faCheckCircle} />&nbsp;&nbsp;{successMessage}
-              </span>
+              <div className="alert-wrapper fixed-bottom">
+                <span className="alert-send-message" role="alert">
+                  <FontAwesomeIcon className="success-icon" icon={faCheckCircle} />&nbsp;&nbsp;{successMessage}
+                </span>
+              </div>
             )
             : null
         }
-
 
       </div>
       <div className="container">

@@ -29,6 +29,14 @@
       margin-left: 20px;
     }
   }
+  .link-bottega {
+    color: var(--primary-blue);
+    text-decoration: none;
+    cursor: pointer;
+    &:hover {
+      color: #069ea3;
+    }
+  }
 }
 
 .timeline-block {

@@ -1,7 +1,10 @@
 import React from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDesktop, faFileCode, faRocket, faMobileAlt } from "@fortawesome/free-solid-svg-icons";
+import { faDesktop, faFileCode } from "@fortawesome/free-solid-svg-icons";
+import DevicesIcon from '@material-ui/icons/Devices';
+
+import Rocket from './logos/rocket';
 
 const Services = () => {
   return (
@@ -43,7 +46,7 @@ const Services = () => {
             <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="box box-align">
                 <div className="hexagon-icon-wrapper">
-                  <div className="icon margin-left"><FontAwesomeIcon icon={faMobileAlt} size="3x" /></div>
+                  <div className="icon margin-left"><DevicesIcon className="devices-icon" style={{ fontSize: 60 }} /></div>
                   <div className="hexagono-wrapper">
                     <div className="hexagono-1">
                       <div className="hexagono-2"></div>
@@ -58,7 +61,7 @@ const Services = () => {
             <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="box box-align">
                 <div className="hexagon-icon-wrapper">
-                  <div className="icon"><FontAwesomeIcon icon={faRocket} size="3x" /></div>
+                  <div className="icon icon-rocket"><Rocket fill="white" /></div>
                   <div className="hexagono-wrapper">
                     <div className="hexagono-1">
                       <div className="hexagono-2"></div>

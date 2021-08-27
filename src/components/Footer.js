@@ -45,10 +45,10 @@ const FooterTest = () => {
 
           {/* social media codepen */}
           <li>
-            <a href="https://codepen.io/bryant_kidult" target="_blank" rel="noopener noreferrer">
+            <a href="https://codepen.io/bryant_romero" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon className="social-size-up" icon={faCodepen} size="2x" />
             </a>
-            <a href="https://codepen.io/bryant_kidult" target="_blank" rel="noopener noreferrer">
+            <a href="https://codepen.io/bryant_romero" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon className="social-size-down" icon={faCodepen} />
             </a>
           </li>

@@ -20,7 +20,7 @@ const Portfolio = () => {
 
   const openPopupboxDailySmarty = () => {
     const content = (
-      <div>
+      <div className="wrapper-modal">
         <img className="portfolio-img-popupbox" src={dailySmarty} alt="Daily Smarty UI Project..." />
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -60,7 +60,7 @@ const Portfolio = () => {
 
   const openPopupboxPortfolio = () => {
     const content = (
-      <div>
+      <div className="wrapper-modal">
         <img className="portfolio-img-popupbox" src={portfolio} alt="Portfolio React Project..." />
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -94,7 +94,7 @@ const Portfolio = () => {
 
   const openPopupboxWeatherApp = () => {
     const content = (
-      <div>
+      <div className="wrapper-modal">
         <img className="portfolio-img-popupbox" src={weatherApp} alt="Weather Aplication..." />
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -135,7 +135,7 @@ const Portfolio = () => {
 
   const openPopupboxGameSnake = () => {
     const content = (
-      <div>
+      <div className="wrapper-modal">
         <img className="portfolio-img-popupbox" src={gameSnake} alt="Game-Boy Snake..." />
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -168,7 +168,7 @@ const Portfolio = () => {
 
   const openPopupboxMarioBros = () => {
     const content = (
-      <div>
+      <div className="wrapper-modal">
         <img className="portfolio-img-popupbox" src={marioBros} alt="Mario Bros Game..." />
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit.
