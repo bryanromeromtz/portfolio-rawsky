@@ -30,7 +30,7 @@ const ContactMe = () => {
     )
 
     setTimeout(function () {
-      setSuccessMessage(false)
+      setSuccessMessage("");
     }, 7000);
 
     r.target.reset();

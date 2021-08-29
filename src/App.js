@@ -19,7 +19,6 @@ function App() {
         params={ParticlesConfig} />
       <Header />
       <Navbar />
-      <div className="border-line"></div>
       <AboutMe />
       <Services />
       <Experience />

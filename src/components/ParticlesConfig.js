@@ -1,4 +1,3 @@
-
 const ParticlesConfig = {
   particles: {
     number: {

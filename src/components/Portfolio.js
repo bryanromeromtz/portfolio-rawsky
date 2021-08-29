@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
 import {
@@ -19,12 +18,15 @@ const Portfolio = () => {
   // modal for daily samarty app
 
   const openPopupboxDailySmarty = () => {
+
     const content = (
       <div className="wrapper-modal">
         <img className="portfolio-img-popupbox" src={dailySmarty} alt="Daily Smarty UI Project..." />
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          Soluta atque corporis esse sit est officiis sint culpa tempora magnam ipsam?
+          this is a replica of the graphical interface of the daily smarty website,
+          this is a blog where you can find the most important programming topics,
+          in this replica we extract all the data from the blogs that daily smarty has with its api,
+          here we work with redux to know the state of our data
         </p>
         <b>View Site: </b>
         <button
@@ -63,8 +65,8 @@ const Portfolio = () => {
       <div className="wrapper-modal">
         <img className="portfolio-img-popupbox" src={portfolio} alt="Portfolio React Project..." />
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          Soluta atque corporis esse sit est officiis sint culpa tempora magnam ipsam?
+          Demo React portfolio, Working React Router dom and several libraries for the project,
+          also on the blog page it has the infinite scroll feature
         </p>
         <b>GitHub: </b>
         <button
@@ -97,8 +99,8 @@ const Portfolio = () => {
       <div className="wrapper-modal">
         <img className="portfolio-img-popupbox" src={weatherApp} alt="Weather Aplication..." />
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          Soluta atque corporis esse sit est officiis sint culpa tempora magnam ipsam?
+          This is a weather application, it is used to find both the temperature,
+          the humidity and the wind speed. consume data from open weather api
         </p>
         <b>View Site: </b>
         <button
@@ -138,8 +140,9 @@ const Portfolio = () => {
       <div className="wrapper-modal">
         <img className="portfolio-img-popupbox" src={gameSnake} alt="Game-Boy Snake..." />
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          Soluta atque corporis esse sit est officiis sint culpa tempora magnam ipsam?
+          this is the classic snake game from the gameboy console from many years ago,
+          here you work with vanilla javascript without any framework or library, pure css and html
+          works for both desktop and mobile. I dare you to get the best score, enjoy it
         </p>
         <b>GitHub: </b>
         <button
@@ -167,12 +170,15 @@ const Portfolio = () => {
   // modal for mario bros game
 
   const openPopupboxMarioBros = () => {
+
     const content = (
       <div className="wrapper-modal">
         <img className="portfolio-img-popupbox" src={marioBros} alt="Mario Bros Game..." />
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          Soluta atque corporis esse sit est officiis sint culpa tempora magnam ipsam?
+          This is the replica of the game you love so much, Mario Bros contains only 2
+          levels and need to add more functions to the game, it only works for desktop,
+          It is built with the kaBoom.js javascript library, it is quite friendly and fun to build 2D videogames,
+          I recommend it
         </p>
         <b>view Site: </b>
         <button
@@ -202,7 +208,6 @@ const Portfolio = () => {
       },
     });
   }
-
 
 
   return (
